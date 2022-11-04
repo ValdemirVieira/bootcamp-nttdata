@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    margin: 20px 20px;
+}
+
+ul.list-menu {
+    display: inline;
+    list-style: none;
+}
+
+ul.list-menu li {
+    width: 150px;
+    height: 40px;
+}
+
+ul.list-menu li a {
+    width: 150px;
+    height: 40px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 7pt;
+    font-family: Arial, sans-serif;
+    line-height: 40px;
+    text-align: center;
+    background: #003663;
+    padding: -1px -5px;
+}
+
+ul.list-menu li a:hover {
+    background: darkgreen;
+    font-size: 9pt;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.header {
+    min-height: 150px;
+}
+
+img {
+    height: 150px;
+    width: 100%;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.content mark {
+    background-color: greenyellow;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+table thead th {
+    background-color: darkgreen;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: lightgreen;
+}
+
+.footer {
+    min-height: 150px;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 50px;
+}
