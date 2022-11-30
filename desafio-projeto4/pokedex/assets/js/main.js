@@ -17,12 +17,28 @@ function loadPokemonItens(offset, limit) {
                         ${pokemon.types.map((type) => `<li class="type ${type}">${type}</li>`).join('')}
                     </ol>
 
-                    <img src="${pokemon.photo}" alt="${pokemon.name}">
+                    <a href="#cards-pokemon" data-toggle="modal">
+                        <img src="${pokemon.photo}" alt="${pokemon.name}">
+                    </a>
                 </div>
             </li>
         `).join('')
 
         pokemonList.innerHTML += newHtml
+
+        const link = document.querySelector("a")
+        const modalPokemon = document.querySelector("dialog")
+        // const buttonX = document.querySelector("dialog button")
+
+        link.onclick = function () {
+            modalPokemon.showModal()
+        } // Não consegui fazer o modal aparecer dinamicamente por aqui, com as informações diretamente da API. Só aparece a versão estática que está no index, e só tá aparecendo clicando na primeira imagem.
+
+        /* Não consegui fazer funcionar, mas o modal fecha clicando no Esc.
+        buttonX.onclick = function () {
+            modal.close()
+        }
+        */
     })
 }
 

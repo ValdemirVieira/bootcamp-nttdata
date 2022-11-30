@@ -17,13 +17,14 @@
     <!-- CSS Próprio -->
     <link rel="stylesheet" href="/assets/css/global.css">
     <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/card.css">
 </head>
 <body>
     <section class="content">
         <h1>Pokedex</h1>
 
         <ol id="pokemonList" class="list-pokemon">
-            <!-- ... Pokemon here ... -->
+            <!-- ... Pokemon List here ... -->
         </ol>
 
         <div class="pagination">
@@ -31,6 +32,41 @@
                 Load More
             </button>
         </div>
+
+        <dialog id="cardsPokemon">
+            <div class="card-pokemon open type-grass">
+                <button>X</button>
+                <div class="card-top">
+                    <div class="details">
+                      <h2 class="name">Pokemon</h2>
+                      <span>#000</span>
+                    </div>
+                    <span class="type">Tipo do Pokemon</span>
+                    <div class="card-image">
+                      <img src="" alt="Imagem do Pokemon"/>
+                    </div>
+                  </div>
+                  <div class="card-info">
+                    <div class="status">
+                      <h3>Status</h3>
+                      <ul>
+                        <li>HP: 300</li>
+                        <li>Ataque: 300</li>
+                        <li>Defesa: 300</li>
+                        <li>Velocidade: 300</li>
+                        <li>Total: 1700</li>
+                      </ul>
+                    </div>
+                    <div class="abiliity">
+                      <h3>Habilidades</h3>
+                      <ul>
+                        <li></li>
+                        <li></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </dialog>
     </section>
 
     <!-- JS Próprio -->
