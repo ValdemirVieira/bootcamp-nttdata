@@ -1,7 +1,7 @@
 <div class="container__big-card">
     <div class="big-card__photo">
         <img
-            src="https://i0.wp.com/www.crossovernerd.com/wp-content/uploads/2020/11/kenshin.jpg?fit=1366%2C768&ssl=1"
+            src="{{ photoCover }}"
             alt=""
             height="200px"
             srcset=""
@@ -9,13 +9,13 @@
     </div>
 
     <div class="big-card__title">
-        <h1><a href="#">Saiu a nova versão do Angular!</a></h1>
+        <h1><a href="#">{{ cardTitle }}</a></h1>
     </div>
 
     <div class="big-card__description">
         <p>
             <a href="#">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quam, voluptatem repellat quos quia reiciendis quaerat similique sapiente in odit recusandae incidunt eligendi? Omnis officia, obcaecati quisquam accusamus blanditiis nihil!
+                {{ cardDescription }}
             </a>
         </p>
     </div>

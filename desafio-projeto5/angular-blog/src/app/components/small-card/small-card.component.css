@@ -14,6 +14,12 @@
     margin-right: 20px;
 }
 
+.small-card__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container__small-card__separator {
     margin-top: 10px;
 }
