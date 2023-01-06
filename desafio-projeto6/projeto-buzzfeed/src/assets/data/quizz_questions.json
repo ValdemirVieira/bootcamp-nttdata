@@ -1,0 +1,37 @@
+{
+    "title":"Qual tipo de dançarino(a) você seria?",
+    "questions":[
+        {
+            "id":1,
+            "question": "Na hora da aula você..?",
+            "options":[
+                {"id": 1, "name":"Chega atrasado", "alias":"A"},
+                {"id": 2, "name":"Faz tudo o que o(a) professor(a) pede", "alias":"B"},
+                {"id": 3, "name":"Interrompe o(a) professor(a) o tempo todo", "alias":"A"},
+                {"id": 4, "name":"Ajuda as pessoas que tem dúvidas", "alias":"B"},
+                {"id": 5, "name":"Fica conversando durante a aula", "alias":"A"}
+            ]
+        },
+        {
+            "id":2,
+            "question": "Numa festa você..?",
+            "options":[
+                {"id": 1, "name":"Prefere dançar só", "alias":"A"},
+                {"id": 2, "name":"Só dança com quem conhece", "alias":"A"},
+                {"id": 3, "name":"Gosta de dançar com todxs", "alias":"B"}
+            ]
+        },
+        {
+            "id":3,
+            "question": "Você se considera..?",
+            "options":[
+                {"id": 1, "name":"Eterno aprendiz", "alias":"B"},
+                {"id": 2, "name":"Sabe tudo", "alias":"A"}
+            ]
+        }
+    ],
+    "results":{
+        "A": "Você muito provavelmente seria um dançarino nutela!",
+        "B": "Você muito provavelmente seria um dançarino raiz!"
+    }
+}
